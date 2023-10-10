@@ -44,8 +44,8 @@ body {
     filter: hue-rotate(293deg);
   }
   40% {
-    left: 0px;
-    top: 0px;   
+    right: 100%;
+    top: 20%;   
     filter: hue-rotate(630deg);
   }
   50% {
@@ -69,13 +69,13 @@ body {
     filter: hue-rotate(210deg);
   }
   90% {
-    left: 0px;
+    top: 0;
     right: 100%;
     filter: hue-rotate(270deg);
   }
   100% {
-    left: 20%;
-    top: 100%;
+    left: 0;
+    top: 0;
     filter: hue-rotate(360deg);
   }
 }
